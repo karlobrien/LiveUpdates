@@ -1,0 +1,37 @@
+[{
+  "ID": "1",
+  "Level": "Error",
+  "Time": "0700",
+  "NewsItems": "Starting the days sport"
+},
+{
+  "ID": "2",
+  "Level": "Info",
+  "Time": "0730",
+  "NewsItems": "Score Update: Giggs - Volley from the edge of the area"
+},
+{
+  "ID": "3",
+  "Level": "Warning",
+  "Time": "0740",
+  "NewsItems": "Score Update: City 3 - United 1"
+},
+{
+  "ID": "4",
+  "Level": "Info",
+  "Time": "0750",
+  "NewsItems": "Still 3-1 United on the attack"
+},
+{
+  "ID": "5",
+  "Level": "Error",
+  "Time": "0755",
+  "NewsItems": "Red Card: Giggs"
+},
+{
+  "ID": "6",
+  "Level": "Info",
+  "Time": "0800",
+  "NewsItems": "All matches are now finished"
+}
+]

@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootStrap", "BootStrap\BootStrap.csproj", "{32860D5E-C524-41F6-BCDD-07CAEBFBDA4E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BootStrap.Tests", "BootStrap.Tests\BootStrap.Tests.csproj", "{384E4982-5C8E-44A3-9416-5A833B8B96DF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{32860D5E-C524-41F6-BCDD-07CAEBFBDA4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32860D5E-C524-41F6-BCDD-07CAEBFBDA4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32860D5E-C524-41F6-BCDD-07CAEBFBDA4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32860D5E-C524-41F6-BCDD-07CAEBFBDA4E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{384E4982-5C8E-44A3-9416-5A833B8B96DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{384E4982-5C8E-44A3-9416-5A833B8B96DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{384E4982-5C8E-44A3-9416-5A833B8B96DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{384E4982-5C8E-44A3-9416-5A833B8B96DF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

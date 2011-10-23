@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="46ca8c19-0bfe-434d-939c-1f4b4f481d32" name="Karl@JUMPERCAKE 2011-10-22 14:12:37" runUser="jumpercake\Karl" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="796c9980-a6a7-40f8-8fe9-b2a53ce95eac">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Karl_JUMPERCAKE 2011-10-22 14_12_37" />
+  </TestSettings>
+  <Times creation="2011-10-22T14:12:37.8797184+01:00" queuing="2011-10-22T14:12:38.4347502+01:00" start="2011-10-22T14:12:38.6487624+01:00" finish="2011-10-22T14:12:38.9467795+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Index" storage="f:\visual studio projects\bootstrap\bootstrap.tests\bin\debug\bootstrap.tests.dll" id="30625463-567f-e932-e0af-b0c229f757a3">
+      <Execution timeOut="1800000" id="bcf1135d-0fde-486d-bca1-f415f1633590" />
+      <TestMethod codeBase="F:/Visual Studio Projects/BootStrap/BootStrap.Tests/bin/Debug/BootStrap.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BootStrap.Tests.Controllers.HomeControllerTest, BootStrap.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="30625463-567f-e932-e0af-b0c229f757a3" executionId="bcf1135d-0fde-486d-bca1-f415f1633590" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="bcf1135d-0fde-486d-bca1-f415f1633590" testId="30625463-567f-e932-e0af-b0c229f757a3" testName="Index" computerName="JUMPERCAKE" duration="00:00:00.0525994" startTime="2011-10-22T14:12:38.7047656+01:00" endTime="2011-10-22T14:12:38.8627746+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="bcf1135d-0fde-486d-bca1-f415f1633590">
+      <Output>
+        <StdOut>System.Web.Mvc.JsonResult</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

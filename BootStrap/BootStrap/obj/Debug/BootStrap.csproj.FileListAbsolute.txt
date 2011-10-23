@@ -1,0 +1,11 @@
+F:\Visual Studio Projects\BootStrap\BootStrap\bin\BootStrap.dll
+F:\Visual Studio Projects\BootStrap\BootStrap\bin\BootStrap.pdb
+F:\Visual Studio Projects\BootStrap\BootStrap\bin\EntityFramework.dll
+F:\Visual Studio Projects\BootStrap\BootStrap\bin\EntityFramework.xml
+F:\Visual Studio Projects\BootStrap\BootStrap\obj\Debug\ResolveAssemblyReference.cache
+F:\Visual Studio Projects\BootStrap\BootStrap\obj\Debug\BootStrap.dll
+F:\Visual Studio Projects\BootStrap\BootStrap\obj\Debug\BootStrap.pdb
+F:\Visual Studio Projects\BootStrap\BootStrap\bin\Newtonsoft.Json.dll
+F:\Visual Studio Projects\BootStrap\BootStrap\bin\Newtonsoft.Json.pdb
+F:\Visual Studio Projects\BootStrap\BootStrap\bin\Newtonsoft.Json.xml
+F:\Visual Studio Projects\BootStrap\BootStrap\bin\Controllers\test.json

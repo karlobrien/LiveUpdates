@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="9a09b874-a288-4d45-8461-c41a760df05f" name="Karl@JUMPERCAKE 2011-10-23 14:43:48" runUser="jumpercake\Karl" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="d5c77bac-b4d0-4a75-8d49-14d78bc29c73">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Karl_JUMPERCAKE 2011-10-23 14_43_48" />
+  </TestSettings>
+  <Times creation="2011-10-23T14:43:48.3719562+01:00" queuing="2011-10-23T14:43:48.9719905+01:00" start="2011-10-23T14:43:49.1810025+01:00" finish="2011-10-23T14:43:49.6840313+01:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Index" storage="f:\visual studio projects\bootstrap\bootstrap.tests\bin\debug\bootstrap.tests.dll" id="30625463-567f-e932-e0af-b0c229f757a3">
+      <Execution timeOut="1800000" id="f916e35b-fc12-4ee9-b7a3-7fd647722a82" />
+      <TestMethod codeBase="F:/Visual Studio Projects/BootStrap/BootStrap.Tests/bin/Debug/BootStrap.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BootStrap.Tests.Controllers.HomeControllerTest, BootStrap.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="30625463-567f-e932-e0af-b0c229f757a3" executionId="f916e35b-fc12-4ee9-b7a3-7fd647722a82" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="f916e35b-fc12-4ee9-b7a3-7fd647722a82" testId="30625463-567f-e932-e0af-b0c229f757a3" testName="Index" computerName="JUMPERCAKE" duration="00:00:00.2894084" startTime="2011-10-23T14:43:49.2340055+01:00" endTime="2011-10-23T14:43:49.5950262+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="f916e35b-fc12-4ee9-b7a3-7fd647722a82">
+      <Output>
+        <StdOut>Score Update: Giggs - Volley from the edge of the area</StdOut>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

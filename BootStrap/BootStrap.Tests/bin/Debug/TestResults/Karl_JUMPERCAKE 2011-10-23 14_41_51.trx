@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="a10155fa-2f48-48e8-8d2c-d96bd99e1ded" name="Karl@JUMPERCAKE 2011-10-23 14:41:51" runUser="jumpercake\Karl" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Default Test Settings" id="d79d18ec-a3b2-47fa-b4d6-b10eb99294b0">
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+    <Deployment runDeploymentRoot="Karl_JUMPERCAKE 2011-10-23 14_41_51" />
+  </TestSettings>
+  <Times creation="2011-10-23T14:41:51.5342735+01:00" queuing="2011-10-23T14:41:52.1493087+01:00" start="2011-10-23T14:41:52.3573206+01:00" finish="2011-10-23T14:41:52.7703442+01:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Index" storage="f:\visual studio projects\bootstrap\bootstrap.tests\bin\debug\bootstrap.tests.dll" id="30625463-567f-e932-e0af-b0c229f757a3">
+      <Execution timeOut="1800000" id="381928ed-f09b-4237-80d1-ba956b2263bc" />
+      <TestMethod codeBase="F:/Visual Studio Projects/BootStrap/BootStrap.Tests/bin/Debug/BootStrap.Tests.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="BootStrap.Tests.Controllers.HomeControllerTest, BootStrap.Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="Index" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="30625463-567f-e932-e0af-b0c229f757a3" executionId="381928ed-f09b-4237-80d1-ba956b2263bc" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="381928ed-f09b-4237-80d1-ba956b2263bc" testId="30625463-567f-e932-e0af-b0c229f757a3" testName="Index" computerName="JUMPERCAKE" duration="00:00:00.2023476" startTime="2011-10-23T14:41:52.4113237+01:00" endTime="2011-10-23T14:41:52.6873394+01:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="381928ed-f09b-4237-80d1-ba956b2263bc">
+      <Output>
+        <ErrorInfo>
+          <Message>Test method BootStrap.Tests.Controllers.HomeControllerTest.Index threw exception: 
+Newtonsoft.Json.JsonSerializationException: Cannot deserialize JSON object into type 'System.Collections.Generic.List`1[BootStrap.Controllers.NewsItem]'.</Message>
+          <StackTrace>    at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateObject(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue) in d:\Development\Releases\Json\Working\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:line 441
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueInternal(JsonReader reader, Type objectType, JsonContract contract, JsonProperty member, Object existingValue) in d:\Development\Releases\Json\Working\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:line 224
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.CreateValueNonProperty(JsonReader reader, Type objectType, JsonContract contract) in d:\Development\Releases\Json\Working\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:line 209
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalReader.Deserialize(JsonReader reader, Type objectType) in d:\Development\Releases\Json\Working\Src\Newtonsoft.Json\Serialization\JsonSerializerInternalReader.cs:line 119
+   at Newtonsoft.Json.JsonSerializer.DeserializeInternal(JsonReader reader, Type objectType) in d:\Development\Releases\Json\Working\Src\Newtonsoft.Json\JsonSerializer.cs:line 418
+   at Newtonsoft.Json.JsonSerializer.Deserialize[T](JsonReader reader) in d:\Development\Releases\Json\Working\Src\Newtonsoft.Json\JsonSerializer.cs:line 401
+   at BootStrap.Controllers.LoadNews.GetNews() in F:\Visual Studio Projects\BootStrap\BootStrap\Controllers\HomeController.cs:line 54
+   at BootStrap.Tests.Controllers.HomeControllerTest.Index() in F:\Visual Studio Projects\BootStrap\BootStrap.Tests\Controllers\HomeControllerTest.cs:line 25
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

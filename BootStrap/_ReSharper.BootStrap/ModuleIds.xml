@@ -1,0 +1,4 @@
+<Modules>
+  <Module PersistentId="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E" ModuleId="BootStrap" />
+  <Module PersistentId="384E4982-5C8E-44A3-9416-5A833B8B96DF" ModuleId="BootStrap.Tests" />
+</Modules>

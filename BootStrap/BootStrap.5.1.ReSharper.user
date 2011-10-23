@@ -1,0 +1,93 @@
+<Configuration>
+  <SettingsComponent>
+    <string />
+    <integer />
+    <boolean>
+      <setting name="SolutionAnalysisEnabled">False</setting>
+    </boolean>
+  </SettingsComponent>
+  <RecentFiles>
+    <RecentFiles>
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Shared/f:_LogOnPartial.cshtml" caret="0" fromTop="0" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Shared/f:Error.cshtml" caret="0" fromTop="0" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/f:_ViewStart.cshtml" caret="0" fromTop="0" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Alerts/f:Alerts.cshtml" caret="968" fromTop="33" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Controllers/f:AlertsController.cs" caret="925" fromTop="45" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Controllers/f:HomeController.cs" caret="1911" fromTop="52" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Shared/f:_Layout.cshtml" caret="2308" fromTop="64" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Home/f:Index.cshtml" caret="1793" fromTop="50" />
+    </RecentFiles>
+    <RecentEdits>
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Controllers/f:AlertsController.cs" caret="925" fromTop="42" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Alerts/f:Alerts.cshtml" caret="968" fromTop="33" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Controllers/f:AlertsController.cs" caret="925" fromTop="45" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Alerts/f:Alerts.cshtml" caret="968" fromTop="33" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Home/f:Index.cshtml" caret="2035" fromTop="48" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Shared/f:_Layout.cshtml" caret="0" fromTop="0" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Home/f:Index.cshtml" caret="583" fromTop="39" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Controllers/f:HomeController.cs" caret="1003" fromTop="46" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Home/f:Index.cshtml" caret="583" fromTop="21" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Home/f:Index.cshtml" caret="296" fromTop="8" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Home/f:Index.cshtml" caret="583" fromTop="58" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Home/f:Index.cshtml" caret="583" fromTop="37" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Home/f:Index.cshtml" caret="296" fromTop="7" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Home/f:Index.cshtml" caret="583" fromTop="34" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Home/f:Index.cshtml" caret="583" fromTop="48" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Home/f:Index.cshtml" caret="2193" fromTop="67" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Home/f:Index.cshtml" caret="2193" fromTop="56" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Home/f:Index.cshtml" caret="583" fromTop="17" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Home/f:Index.cshtml" caret="2193" fromTop="60" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Home/f:Index.cshtml" caret="585" fromTop="82" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Home/f:Index.cshtml" caret="585" fromTop="14" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Controllers/f:HomeController.cs" caret="2778" fromTop="66" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Controllers/f:HomeController.cs" caret="1911" fromTop="46" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Home/f:Index.cshtml" caret="585" fromTop="40" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Shared/f:_Layout.cshtml" caret="2657" fromTop="73" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Shared/f:_Layout.cshtml" caret="598" fromTop="15" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Home/f:Index.cshtml" caret="2193" fromTop="46" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Home/f:Index.cshtml" caret="585" fromTop="16" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Home/f:Index.cshtml" caret="2055" fromTop="54" />
+      <File id="32860D5E-C524-41F6-BCDD-07CAEBFBDA4E/d:Views/d:Home/f:Index.cshtml" caret="1889" fromTop="52" />
+    </RecentEdits>
+  </RecentFiles>
+  <NAntValidationSettings>
+    <NAntPath value="" />
+  </NAntValidationSettings>
+  <UnitTestRunner>
+    <Providers />
+  </UnitTestRunner>
+  <UnitTestRunnerNUnit>
+    <NUnitInstallDir>C:\Program Files (x86)\NUnit 2.5.9\bin\net-2.0\</NUnitInstallDir>
+    <UseAddins>Never</UseAddins>
+  </UnitTestRunnerNUnit>
+  <CompletionStatisticsManager>
+    <ItemStatistics item="Default">
+      <Item value="string" priority="3" />
+      <Item value="int" priority="2" />
+      <Item value="Math`0" priority="0" />
+      <Item value="Random`0" priority="0" />
+      <Item value="new" priority="0" />
+      <Item value="Random" priority="0" />
+      <Item value="random" priority="0" />
+      <Item value="rand" priority="1" />
+      <Item value="test" priority="0" />
+      <Item value="ActionResult`0" priority="0" />
+      <Item value="Alerts`0" priority="0" />
+      <Item value="View`0" priority="0" />
+      <Item value="public" priority="3" />
+      <Item value="return" priority="2" />
+      <Item value="JsonResult`0" priority="2" />
+      <Item value="var" priority="1" />
+      <Item value="Json`0" priority="1" />
+      <Item value="updates" priority="0" />
+      <Item value="AllowGet" priority="1" />
+      <Item value="data" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Random">
+      <Item value="Next`0" priority="0" />
+    </ItemStatistics>
+    <ItemStatistics item="Qualified:System.Int32">
+      <Item value="ToString`0" priority="0" />
+    </ItemStatistics>
+  </CompletionStatisticsManager>
+</Configuration>

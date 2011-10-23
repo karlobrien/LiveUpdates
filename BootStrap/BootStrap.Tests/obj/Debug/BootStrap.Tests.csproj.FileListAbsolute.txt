@@ -1,0 +1,12 @@
+F:\Visual Studio Projects\BootStrap\BootStrap.Tests\bin\Debug\BootStrap.Tests.dll.config
+F:\Visual Studio Projects\BootStrap\BootStrap.Tests\bin\Debug\BootStrap.Tests.dll
+F:\Visual Studio Projects\BootStrap\BootStrap.Tests\bin\Debug\BootStrap.Tests.pdb
+F:\Visual Studio Projects\BootStrap\BootStrap.Tests\bin\Debug\BootStrap.dll
+F:\Visual Studio Projects\BootStrap\BootStrap.Tests\bin\Debug\BootStrap.pdb
+F:\Visual Studio Projects\BootStrap\BootStrap.Tests\obj\Debug\ResolveAssemblyReference.cache
+F:\Visual Studio Projects\BootStrap\BootStrap.Tests\obj\Debug\BootStrap.Tests.dll
+F:\Visual Studio Projects\BootStrap\BootStrap.Tests\obj\Debug\BootStrap.Tests.pdb
+F:\Visual Studio Projects\BootStrap\BootStrap.Tests\bin\Debug\Newtonsoft.Json.dll
+F:\Visual Studio Projects\BootStrap\BootStrap.Tests\bin\Debug\Newtonsoft.Json.pdb
+F:\Visual Studio Projects\BootStrap\BootStrap.Tests\bin\Debug\Newtonsoft.Json.xml
+F:\Visual Studio Projects\BootStrap\BootStrap.Tests\bin\Debug\Controllers\test.json

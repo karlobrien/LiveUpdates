@@ -1,0 +1,98 @@
+﻿
+<script type="text/javascript">
+
+    $(document).ready(function () {
+
+        //Inital page load
+        loadNews();
+
+        //Refresh the news div every 10 seconds
+        var newsRefresh = setInterval(loadNews, 10000);
+
+        function loadNews() {
+            $.ajax({
+                cache: false,
+                type: "GET",
+                dataType: "json",
+                url: "/Home/GrabNews",
+                success: function (json) {
+                    var items = '';
+                    $("#newsObject").empty();
+                    $.each(json, function (i, item) {
+                        if (item.Level == 'Error') {
+                            items = items + '<div id=\"clockwatch_event_' + item.ID + '\"><b>' + item.Time + '</b>' + "  " + '<span class="label important">Error</span>' + "  " + item.NewsItems + '<p></p></div>';
+                        }
+                        else if (item.Level == "Warning") {
+                            items = items + '<div id=\"clockwatch_event_' + item.ID + '\"><b>' + item.Time + '</b>' + "  " + '<span class="label warning">Warning</span>' + "  " + item.NewsItems + '<p></p></div>';
+                        }
+                        else if (item.Level == "Info") {
+                            items = items + '<div id=\"clockwatch_event_' + item.ID + '\"><b>' + item.Time + '</b>' + "  " + '<span class="label notice">Info</span>' + "  " + item.NewsItems + '<p></p></div>';
+                        }
+                        else {
+                            items = items + '<div id=\"clockwatch_event_' + item.ID + '\"><b>' + item.Time + '</b>' + "  " + '<span class="label notice">Notice</span>' + "  " + item.NewsItems + '<p></p></div>';
+                        }
+                    });
+                    $("#newsObject").append(items);
+                }
+            });
+        }
+    });
+
+
+</script>
+
+    <div class="topbar">
+      <div class="fill">
+        <div class="container">
+          <a class="brand" href="#">Project name</a>
+          <ul class="nav">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+          <form action="" class="pull-right">
+            <input class="input-small" type="text" placeholder="Username">
+            <input class="input-small" type="password" placeholder="Password">
+            <button class="btn" type="submit">Sign in</button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+
+      <div class="content">
+        <div class="page-header">
+          <h1>Platform Status</h1>
+        </div>
+        <div class="row">
+          <div class="span8">
+          <h2>Today's Status  <small>Last Updated:  </small></h2>
+                <div id="responsecontainer"></div> 
+                <div id="newsObject"></div>                   
+          </div>
+          <div class="span4">
+          <h3>Latest Scores</h3>
+                <div id="ProdSchedule"></div> 
+          </div>     
+          <div class="span10">
+          <h2>Issue History </h2>
+                <div id="newsHistory"></div>                   
+          </div>
+          <div class="span8">
+          <h2>Platform Health </h2>
+                <div id="apiHealth"></div>                   
+          </div>
+          <div class="span4">
+          <h3></h3>
+                <div id="apiHealth2"></div> 
+          </div> 
+        </div>
+      </div>
+
+      <footer>
+        <p>&copy; jumpercake 2011</p>
+      </footer>
+
+    </div> <!-- /container -->
+
