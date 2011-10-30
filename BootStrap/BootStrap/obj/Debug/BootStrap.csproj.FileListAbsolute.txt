@@ -9,3 +9,8 @@ F:\Visual Studio Projects\BootStrap\BootStrap\bin\Newtonsoft.Json.dll
 F:\Visual Studio Projects\BootStrap\BootStrap\bin\Newtonsoft.Json.pdb
 F:\Visual Studio Projects\BootStrap\BootStrap\bin\Newtonsoft.Json.xml
 F:\Visual Studio Projects\BootStrap\BootStrap\bin\Controllers\test.json
+F:\Visual Studio Projects\BootStrap\BootStrap\bin\Microsoft.Web.Infrastructure.dll
+F:\Visual Studio Projects\BootStrap\BootStrap\bin\MvcMiniProfiler.dll
+F:\Visual Studio Projects\BootStrap\BootStrap\bin\WebActivator.dll
+F:\Visual Studio Projects\BootStrap\BootStrap\bin\MvcMiniProfiler.pdb
+F:\Visual Studio Projects\BootStrap\BootStrap\bin\MvcMiniProfiler.xml

@@ -10,3 +10,7 @@ F:\Visual Studio Projects\BootStrap\BootStrap.Tests\bin\Debug\Newtonsoft.Json.dl
 F:\Visual Studio Projects\BootStrap\BootStrap.Tests\bin\Debug\Newtonsoft.Json.pdb
 F:\Visual Studio Projects\BootStrap\BootStrap.Tests\bin\Debug\Newtonsoft.Json.xml
 F:\Visual Studio Projects\BootStrap\BootStrap.Tests\bin\Debug\Controllers\test.json
+F:\Visual Studio Projects\BootStrap\BootStrap.Tests\bin\Debug\WebActivator.dll
+F:\Visual Studio Projects\BootStrap\BootStrap.Tests\bin\Debug\MvcMiniProfiler.dll
+F:\Visual Studio Projects\BootStrap\BootStrap.Tests\bin\Debug\MvcMiniProfiler.pdb
+F:\Visual Studio Projects\BootStrap\BootStrap.Tests\bin\Debug\MvcMiniProfiler.xml

@@ -7,7 +7,7 @@
         loadNews();
 
         //Refresh the news div every 10 seconds
-        var newsRefresh = setInterval(loadNews, 10000);
+        //var newsRefresh = setInterval(loadNews, 10000);
 
         function loadNews() {
             $.ajax({
@@ -30,12 +30,17 @@
                         }
                         else {
                             items = items + '<div id=\"clockwatch_event_' + item.ID + '\"><b>' + item.Time + '</b>' + "  " + '<span class="label notice">Notice</span>' + "  " + item.NewsItems + '<p></p></div>';
-                        }
+                        }   
                     });
                     $("#newsObject").append(items);
                 }
             });
         }
+
+        $(function () {
+            $("table#newsHistory").tablesorter({ sortList: [[1, 0]] });
+        });
+
     });
 
 
@@ -77,7 +82,89 @@
           </div>     
           <div class="span10">
           <h2>Issue History </h2>
-                <div id="newsHistory"></div>                   
+                <table id="newsHistory" class="zebra-striped">
+                <thead>
+                <tr>
+                <th class="header">Platform</th>
+                <th class="blue header">Today</th>
+                <th class="green header">Yesterday</th>
+                <th class="red header">Week</th>
+                <th class="red header">Month</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                          <a
+                            href="/status/appengine/detail/serving/2011/10/27"
+                            title="Online">
+                            <img src="/Content/good.gif" alt="no issues"/>
+                          </a>
+                         </td>
+                        <td>
+                         <a
+                            href="/status/appengine/detail/serving/2011/10/27"
+                            title="Online">
+                            <img src="/Content/good.gif" alt="no issues"/>
+                         </a>
+                        </td>
+                        <td>
+                         <a
+                            href="/status/appengine/detail/serving/2011/10/27"
+                            title="Online">
+                            <img src="/Content/good.gif" alt="no issues"/>
+                          </a>
+                        </td>
+                        <td>
+                         <a
+                            href="/status/appengine/detail/serving/2011/10/27"
+                            title="Online">
+                            <img src="/Content/good.gif" alt="no issues"/>
+                          </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                         <a
+                            href="/status/appengine/detail/serving/2011/10/27"
+                            title="Online">
+                            <img src="/Content/good.gif" alt="no issues"/>
+                          </a>
+                        </td>
+                        <td>
+                         <a
+                            href="/status/appengine/detail/serving/2011/10/27"
+                            title="Online">
+                            <img src="/Content/good.gif" alt="no issues"/>
+                          </a>
+                        </td>
+                        <td>
+                         <a
+                            href="/status/appengine/detail/serving/2011/10/27"
+                            title="Online">
+                            <img src="/Content/good.gif" alt="no issues"/>
+                          </a>
+                        </td>
+                        <td>
+                         <a
+                            href="/status/appengine/detail/serving/2011/10/27"
+                            title="Online">
+                            <img src="/Content/good.gif" alt="no issues"/>
+                          </a>
+                        </td>
+                    </tr>
+                </tbody>
+                </table>
+                <p>The following symbols signify the most severe issue (if any) encountered during that day. Click a symbol in the table above to view a day's performance graphs.</p>
+                <p>
+                <img src="/Content/good.gif" width="16" height="15" alt="no issues"/> <span>No significant issues</span>
+                <img src="/Content/status_unknown.gif" width="16" height="15" alt="planned"/> <span>Scheduled maintenance</span>
+                <img src="/Content/status_investigating.gif" width="16" height="15" alt="investigating"/> <span>Investigating</span>
+                <img src="/Content/status_alert.gif" width="16" height="15" alt="service disruption"/> <span>Service disruption</span>
+                <img src="/Content/status_unknown.gif" width="16" height="15" alt="unknown"/> <span>Unknown</span>
+                </p>                  
           </div>
           <div class="span8">
           <h2>Platform Health </h2>

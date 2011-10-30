@@ -4,6 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Routing;
+using MvcMiniProfiler;
 
 namespace BootStrap
 {
@@ -27,6 +28,16 @@ namespace BootStrap
                 new { controller = "Home", action = "Index", id = UrlParameter.Optional } // Parameter defaults
             );
 
+        }
+
+        protected void Application_BeginRequest()
+        {
+            if (Request.IsLocal) { MiniProfiler.Start(); } //or any number of other checks, up to you 
+        }
+
+        protected void Application_EndRequest()
+        {
+            MiniProfiler.Stop(); //stop as early as you can, even earlier with MvcMiniProfiler.MiniProfiler.Stop(discardResults: true);
         }
 
         protected void Application_Start()
